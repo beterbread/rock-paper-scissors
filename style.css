@@ -1,0 +1,44 @@
+h1, h2, .human-score, .bot-score, .human-choice, .bot-choice {
+  text-align: center;
+}
+
+.score {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 100px;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 20px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  position: absolute;
+  border: solid black;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+}

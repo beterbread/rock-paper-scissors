@@ -1,8 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
 <main>
   <head>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Rock Paper Scissors</h1>
+    <h2>First to 5 wins!</h2>
+    <div class="score">
+      <div>
+        <p>Your score</p>
+        <p class="human-score">0</p>
+      </div>
+      <div>
+        <p>Bot score</p>
+        <p class="bot-score">0</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <input type="image" src="./images/rock.jpg" alt="rock"/>
+      <input type="image" src="./images/paper.jpg" alt="paper"/>
+      <input type="image" src="./images/scissors.jpg" alt="scissors"/>
+    </div>
+    <div class="score">
+      <div>
+        <p>You played</p>
+        <p class="human-choice">?</p>
+      </div>
+      <div>
+        <p>Bot played</p>
+        <p class="bot-choice">?</p>
+      </div>  
+    </div>
+    <div class="popup">
+      <div class="popup-content">
+        <p class="winner"></p>
+        <button class="play-again">Play again?</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </main>
+</html>
