@@ -35,7 +35,7 @@ input {
 
 .popup-content {
   position: absolute;
-  border: solid black;
+  border: 1px solid black;
   border-radius: 5px;
   top: 50%;
   left: 50%;
