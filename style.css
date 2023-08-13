@@ -9,8 +9,8 @@ body {
 }
 
 input {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
 }
 
 .buttons {
@@ -19,7 +19,7 @@ input {
 }
 
 input {
-  margin: 20px;
+  margin: 2vw;
 }
 
 .popup {
@@ -39,23 +39,28 @@ input {
   border-radius: 5px;
   top: 50%;
   left: 50%;
+  width: 20vw;
+  height: auto;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  padding: 20px;
+  padding: 2vw;
 }
 
 .winner {
+  font-size: 2.5vw;
   text-align: center;
 }
 
 .play-again {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 1.5vw 3vw;
   background-color: #00cc00;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 2vw;
   text-decoration: none;
   border-radius: 4px;
+  height: 5vw;
+  width: auto;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -72,4 +77,22 @@ input {
 .play {
   display: flex;
   flex-direction: row;
+}
+
+h1 {
+  font-size: 5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+h2 {
+  font-size: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+h3, p {
+  font-size: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }

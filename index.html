@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<main>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Rock Paper Scissors</title>
-  </head>
-  <body>
-    <h1>Rock Paper Scissors</h1>
-    <h2>First to 5 wins!</h2>
-    <div class="score">
-      <div>
-        <h3>Your score</h3>
-        <h3 class="human-score">0</h3>
-      </div>
-      <div>
-        <h3>Bot score</h3>
-        <h3 class="bot-score">0</h3>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <h2>First to 5 wins!</h2>
+  <div class="score">
+    <div>
+      <h3>Your score</h3>
+      <h3 class="human-score">0</h3>
     </div>
-    <div class="buttons">
-      <input type="image" src="./images/rock.jpg" alt="rock"/>
-      <input type="image" src="./images/paper.jpg" alt="paper"/>
-      <input type="image" src="./images/scissors.jpg" alt="scissors"/>
+    <div>
+      <h3>Bot score</h3>
+      <h3 class="bot-score">0</h3>
     </div>
-    <div class="score">
-      <div class="play">
-        <p>You played&nbsp;</p>
-        <p class="human-choice">?</p>
-      </div>
-      <div class="play">
-        <p>Bot played&nbsp;</p>
-        <p class="bot-choice">?</p>
-      </div>  
+  </div>
+  <div class="buttons">
+    <input type="image" src="./images/rock.jpg" alt="rock"/>
+    <input type="image" src="./images/paper.jpg" alt="paper"/>
+    <input type="image" src="./images/scissors.jpg" alt="scissors"/>
+  </div>
+  <div class="score">
+    <div class="play">
+      <p>You played&nbsp;</p>
+      <p class="human-choice">?</p>
     </div>
-    <div class="popup">
-      <div class="popup-content">
-        <p class="winner"></p>
-        <button class="play-again">Play again?</button>
-      </div>
+    <div class="play">
+      <p>Bot played&nbsp;</p>
+      <p class="bot-choice">?</p>
+    </div>  
+  </div>
+  <div class="popup">
+    <div class="popup-content">
+      <p class="winner"></p>
+      <button class="play-again">Play again?</button>
     </div>
-    <script src="script.js"></script>
-  </body>
-</main>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
